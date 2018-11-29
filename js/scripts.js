@@ -29,3 +29,6 @@ function triangle() {
         display.innerHTML = "This is not a triangle"
       }
     }
+    function reset() {
+      location.reload();
+    }
