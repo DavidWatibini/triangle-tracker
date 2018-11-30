@@ -6,15 +6,27 @@
   <title>Triangle Tracker</title>
 </head>
 <body>
-  <h2>Triangle Tracker</h2>
-  <h2>side-one=<input type="text" style="font-size:25px; font-weight: bold;" id="side1"></h2>
-  <h2>side-two=<input type="text" style="font-size:20px; font-weight: bold;" id="side2"></h2>
-  <h2>side-three=<input type="text" style="font-size:20px; font-weight: bold;" id="side3"></h2>
+  <nav>
+    <ul id="nav">
+      <li><a href="#home">Try out</a></li>
+      <li><a href="#help">Help</a></li>
+    </ul>
+  </nav>
+  <div class="home">
+    <h2 id="h2">Triangle Tracker</h2>
+      <div class="forms">
+        <h2>side-one=<input type="text" style="font-size:20px; font-weight: bold;" id="side1"></h2>
+        <h2 >side-two=<input type="text" style="font-size:20px; font-weight: bold;" id="side2"></h2>
+        <h2>side-three=<input type="text" style="font-size:20px; font-weight: bold;" id="side3"></h2>
 
-  <input class="button" type="button" value="Find Out" onclick="triangle()">
-  <input class="button" type="button" value="Reset" onclick="reset()">
-  <p id="display"></p>
+      </div>
+      <div class="buttons">
+        <input class="button" type="button" value="Find Out" onclick="triangle()">
+        <input class="button" type="button" value="Reset" onclick="reset()">
+      </div>
 
+      <p id="display"></p>
+  </div>
 </body>
 <script src="js/scripts.js"></script>
 </html>
