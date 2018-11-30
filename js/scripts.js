@@ -8,7 +8,7 @@ function triangle() {
   var display = document.getElementById("display");
   if(a.length === 0 || b.length === 0 || c.length === 0 ) {
     alert("Please fill in all the fields")
-    confirm("Have you understood all instructions? click on help")
+    prompt("Need help?")
   } else {
     side(a,b,c);
   }
@@ -18,7 +18,7 @@ function side(a,b,c) {
     if(a === b && a === c) {
       display.innerHTML = "<p>This is an Equilateral triangle</p>"
     }
-    else if(a === b || b === c || a === c) {
+    else if(a === b || b === c || c === a) {
       display.innerHTML = "This is an Isoceles triangle"
     }
     else {
@@ -29,7 +29,19 @@ function side(a,b,c) {
     display.innerHTML = "This is not a triangle"
   }
 }
-
   function reset() {
     location.reload();
   }
+
+  var clues = [
+    'Enter only numbers to the fields provided',
+    'Letters and punctuation marks are not number',
+    'All fields must be filled with a number only',
+    'Enter only one number',
+    'click on help icon for '
+]
+
+function newClues() {
+  var randomNumber= Math.floor(Math.round() *(clues.length));
+  document.getElementById('cluesdisplay').innerHTML=clues  ;
+}
