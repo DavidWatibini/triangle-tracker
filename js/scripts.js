@@ -44,3 +44,21 @@ function newClues() {
   var randomNumber= Math.floor(Math.random() *(clues.length));
   document.getElementById('cluesdisplay').innerHTML=clues[randomNumber]  ;
 }
+
+function instructions() {
+    document.getElementById("instructions").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.instruct')) {
+
+    var instructions = document.getElementsByClassName("instructions-content");
+    var i;
+    for (i = 0; i < instructions.length; i++) {
+      var openInstructions = instructions[i];
+      if (openInstructions.classList.contains('show')) {
+        openInstructions.classList.remove('show');
+      }
+    }
+  }
+}
