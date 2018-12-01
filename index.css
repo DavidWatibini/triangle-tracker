@@ -41,3 +41,31 @@ nav>ul>li>a:hover {
 .buttons {
   text-align: center;
 }
+
+.instruct {
+    background-color: #3498DB;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: white;
+    padding: 15px;
+}
+
+.instruct:hover {
+    background-color: #2980B9;
+}
+
+.instructions {
+    position: relative;
+    bottom: 300px;
+    display: inline-block;
+}
+
+.instructions-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.show {display:block;}
