@@ -21,14 +21,28 @@
 
       </div>
       <div class="buttons">
-        <input class="button" type="button" value="Submit" onclick="triangle()">
-        <input class="button" type="button" value="Reset" onclick="reset()">
-        <input class="button" type="button" value="Clues" onclick="newClues()">
+        <input type="button" value="Submit" onclick="triangle()">
+        <input type="button" value="Reset" onclick="reset()">
+        <input type="button" value="Clues" onclick="newClues()">
 
       </div>
-      <h1>simple</h1>
-      <p id="cluesdisplay"></p>
-      <p id="display"></p>
+        <h1>simple</h1>
+          <p id="cluesdisplay"></p>
+          <p id="display"></p>
+
+      <div class="instructions">
+        <button onclick="instructions()" class="instruct">Instructions</button>
+          <div id="instructions" class="instructions-content">
+            <ol>
+              <li>Input values into the fields provided</li>
+              <li>Click on the submit button</li>
+              <li>view answer on the right side of your page</li>
+              <li>Click  on the reset button so as to enable a fresh input</li>
+              <li>Click on the clues button to run possible answers </li>
+              <li>Click on help menu stuck</li>
+            </ol>
+          </div>
+        </div>
   </div>
 </body>
 <script src="js/scripts.js"></script>

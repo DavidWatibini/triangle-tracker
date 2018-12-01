@@ -33,6 +33,7 @@ function side(a,b,c) {
     location.reload();
   }
 
+function newClues() {
   var clues = [
     'Enter only numbers to the fields provided',
     'Letters and punctuation marks are not number',
@@ -40,8 +41,6 @@ function side(a,b,c) {
     'Enter only one number',
     'click on help icon for '
 ]
-
-function newClues() {
-  var randomNumber= Math.floor(Math.round() *(clues.length));
-  document.getElementById('cluesdisplay').innerHTML=clues  ;
+  var randomNumber= Math.floor(Math.random() *(clues.length));
+  document.getElementById('cluesdisplay').innerHTML=clues[randomNumber]  ;
 }
