@@ -1,3 +1,19 @@
+body {
+  background-image: url("https://image.freepik.com/free-vector/watercolour-abstract-background_1048-9210.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+#overlay {
+  position: fixed;
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
 nav>ul {
   text-align: right;
 }
@@ -15,48 +31,40 @@ nav ul li a {
   font-family: 'Mali', cursive;
 }
 nav>ul>li>a:hover {
-  color: white;
-  background-color: black;
+  background-color: white;
+  border-radius: 20px;
 }
 #nav {
   position: fixed;
   right: 60px;
 }
-
-#h2 {
-  text-align: center;
-  position: relative;
-  top: 40px;
-}
 .home {
+  background: whitesmoke;
+  text-align: center;
+  width: 50%;
+  border-radius: 15px;
+  margin: 0 auto;
+  height: auto;
   padding: 30px;
+  position: relative;
+  top: 20%;
+  box-shadow: 2px 2px 5px white;
 }
-.forms{
-  padding: 50px;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-.buttons {
-  text-align: center;
-}
-
 .instruct {
-    background-color: #3498DB;
+    background-color:white;
     font-size: 20px;
     text-transform: uppercase;
-    color: white;
+    color: black;
     padding: 15px;
 }
 
 .instruct:hover {
-    background-color: #2980B9;
+    background-color: grey;
 }
 
 .instructions {
     position: relative;
-    bottom: 300px;
+    bottom:120px;
     display: inline-block;
 }
 
