@@ -62,3 +62,21 @@ window.onclick = function(event) {
     }
   }
 }
+
+function about() {
+    document.getElementById("about").classList.toggle("show");
+}
+
+window.onclick = function(event) {
+  if (!event.target.matches('.abouttc')) {
+
+    var instructions = document.getElementsByClassName("about-content");
+    var i;
+    for (i = 0; i < about.length; i++) {
+      var openAbout = about[i];
+      if (openAbout.classList.contains('show')) {
+        openAbout.classList.remove('show');
+      }
+    }
+  }
+}
