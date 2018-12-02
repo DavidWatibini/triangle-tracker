@@ -37,9 +37,16 @@ nav>ul>li>a:hover {
 #nav {
   position: fixed;
   right: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#heading {
+  margin-right: 300px;
+  font-family: 'Gamja Flower', cursive;
 }
 .home {
-  background: whitesmoke;
+  background:#EFF7F9;
   text-align: center;
   width: 50%;
   border-radius: 15px;
@@ -49,6 +56,7 @@ nav>ul>li>a:hover {
   position: relative;
   top: 20%;
   box-shadow: 2px 2px 5px white;
+  font-family: 'Patrick Hand', cursive;
 }
 .instruct {
     background-color:white;
@@ -56,6 +64,7 @@ nav>ul>li>a:hover {
     text-transform: uppercase;
     color: black;
     padding: 15px;
+      font-family: 'Patrick Hand', cursive;
 }
 
 .instruct:hover {
