@@ -8,7 +8,7 @@ function triangle() {
   var display = document.getElementById("display");
   if(a.length === 0 || b.length === 0 || c.length === 0 ) {
     alert("Please fill in all the fields")
-    prompt("Need help?")
+    confirm("Click on help for more information")
   } else {
     side(a,b,c);
   }
@@ -36,10 +36,11 @@ function side(a,b,c) {
 function newClues() {
   var clues = [
     'Enter only numbers to the fields provided',
-    'Letters and punctuation marks are not number',
+    'Letters and punctuation marks are not numbers',
     'All fields must be filled with a number only',
     'Enter only one number',
-    'click on help icon for '
+    'click on the help icon for more information',
+    'All inputs must be submitted for result to be displayed'
 ]
   var randomNumber= Math.floor(Math.random() *(clues.length));
   document.getElementById('cluesdisplay').innerHTML=clues[randomNumber]  ;
