@@ -50,7 +50,7 @@ Use this link to see the web-page
 
 (https://watibini.github.io/triangle-tracker/)
 
-##Contact Information
+## Contact Information
 
 Email-(watimakhanu@gmail.com)
 
