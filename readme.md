@@ -23,7 +23,7 @@ This web application is a triangle checker that allows users to check the 3 type
 You can get it on git-hub by;
 1. From the repository, click + in the global sidebar and select Clone this repository under Get to work.
 
-2. Copy the clone command (either the SSH format or the HTTPS).
+2. Copy the clone command.
 
 If you are using the SSH protocol, ensure your public key is in Bitbucket and loaded on the local system to which you are cloning
 
