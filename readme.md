@@ -11,7 +11,7 @@ David Watibini Makhanu
 This web application is a triangle checker that allows users to check the 3 types of triangles which include; an Equilateral triangle and a Scalene triangle.
 
 ## Technologies Used
-1.  HTML
+1.HTML
 
 2.CSS
 
@@ -33,7 +33,7 @@ or just use this
 
 `$ git clone https://github.com/watibini/triangle-tracker.git`
 
-##BDD
+## BDD
 
 1. The user must input values into the html fields. if not the user is alerted to do so.
 
@@ -42,7 +42,7 @@ or just use this
 3. The about and instructions drop-down buttons are there to guide the user on how to perform a check.
 
 4. The clues button is used to give guidance to the user when stuck.
- 
+
 
 ## Live link
 
