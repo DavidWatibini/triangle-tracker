@@ -11,7 +11,7 @@ function triangle() {
     confirm("Click on help for more information")
   } else {
     side(a,b,c);
-  }
+  } 
 }
 function side(a,b,c) {
   if(a + b > c && b + c > a && c + a > b) {
