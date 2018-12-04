@@ -1,8 +1,9 @@
 body {
   background-image: url("https://image.freepik.com/free-vector/watercolour-abstract-background_1048-9210.jpg");
   background-repeat: no-repeat;
-  background-size:cover
+  background-size: cover
 }
+
 nav>ul {
   text-align: right;
 }
@@ -10,25 +11,29 @@ nav>ul {
 nav>ul>li {
   display: inline-block;
 }
+
 nav ul li a {
   padding: 18px;
   margin-right: 0;
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-  color:orange;
+  color: orange;
   font-family: 'Mali', cursive;
 }
+
 nav>ul>li>a:hover {
   background-color: white;
   border-radius: 20px;
 }
+
 #nav {
   position: fixed;
   right: 60px;
 }
+
 .home {
-  background:#EFF7F9;
+  background: #EFF7F9;
   width: 50%;
   border-radius: 15px;
   margin: 0 auto;
@@ -40,6 +45,7 @@ nav>ul>li>a:hover {
   font-family: 'Patrick Hand', cursive;
   font-size: 18px;
 }
+
 .home h2 {
   text-align: center;
 }

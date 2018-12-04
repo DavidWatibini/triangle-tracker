@@ -11,23 +11,23 @@ David Watibini Makhanu
 This web application is a triangle checker that allows users to check the 3 types of triangles which include; an Equilateral triangle and a Scalene triangle.
 
 ## Technologies Used
+
 1.HTML
 
 2.CSS
 
 3.javaScript
 
-
 ## Project setup instruction/ installations
 
 You can get it on git-hub by;
-1. From the repository, click + in the global sidebar and select Clone this repository under Get to work.
+1\. From the repository, click + in the global sidebar and select Clone this repository under Get to work.
 
-2. Copy the clone command.
+2.  Copy the clone command.
 
 If you are using the SSH protocol, ensure your public key is in Bitbucket and loaded on the local system to which you are cloning
 
-3. From a terminal window, change to the local directory where you want to clone your repository.
+3.  From a terminal window, change to the local directory where you want to clone your repository.
 
 or just use this
 
@@ -35,20 +35,19 @@ or just use this
 
 ## BDD
 
-1. The user must input values into the html fields. if not the user is alerted to do so.
+1.  The user must input values into the html fields. if not the user is alerted to do so.
 
-2. The user is alerted if they have understood all instructions if yes, the user may proceed if not the user is alerted to visit the help section.
+2.  The user is alerted if they have understood all instructions if yes, the user may proceed if not the user is alerted to visit the help section.
 
-3. The about and instructions drop-down buttons are there to guide the user on how to perform a check.
+3.  The about and instructions drop-down buttons are there to guide the user on how to perform a check.
 
-4. The clues button is used to give guidance to the user when stuck.
-
+4.  The clues button is used to give guidance to the user when stuck.
 
 ## Live link
 
 Use this link to see the web-page
 
-(https://watibini.github.io/triangle-tracker/)
+(<https://watibini.github.io/triangle-tracker/>)
 
 ## Contact Information
 
@@ -57,9 +56,10 @@ Email-(watimakhanu@gmail.com)
 Github user name -Watibini
 
 ## License
+
 MIT License
 
-Copyright (c) [2018] [David WAtibini Makhanu]
+Copyright (c) [2018][david watibini makhanu]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

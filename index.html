@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="index.css">
   <link href="https://fonts.googleapis.com/css?family=Gamja+Flower|Indie+Flower|Patrick+Hand" rel="stylesheet">
   <title>Triangle Tracker</title>
 </head>
+
 <body>
   <div class="all">
     <div id="overlay">
@@ -18,41 +20,42 @@
       </nav>
       <div class="home">
         <h2 id="h2">Triangle Tracker</h2>
-          <div class="forms">
-            <h2>side-one=<input type="text" style="font-size:20px"; id="side1"></h2>
-            <h2 >side-two=<input type="text" style="font-size:20px"; id="side2"></h2>
-            <h2>side-three=<input type="text" style="font-size:20px"; id="side3"></h2>
+        <div class="forms">
+          <h2>side-one=<input type="text" style="font-size:20px" ; id="side1"></h2>
+          <h2>side-two=<input type="text" style="font-size:20px" ; id="side2"></h2>
+          <h2>side-three=<input type="text" style="font-size:20px" ; id="side3"></h2>
 
-          </div>
-          <div class="buttons">
-            <input type="button" value="Submit" onclick="triangle()">
-            <input type="button" value="Reset" onclick="reset()">
-            <input type="button" value="Clues" onclick="newClues()">
+        </div>
+        <div class="buttons">
+          <input type="button" value="Submit" onclick="triangle()">
+          <input type="button" value="Reset" onclick="reset()">
+          <input type="button" value="Clues" onclick="newClues()">
 
-          </div>
-              <p id="cluesdisplay"></p>
-              <p id="display"></p>
+        </div>
+        <p id="cluesdisplay"></p>
+        <p id="display"></p>
       </div>
-          <div class="about">
-            <button onclick="about()" class="abouttc">About</button>
-              <div id="about" class="about-content">
-                <p>This a Checker calculator that allows users to check the type of triangles depending on the values inputed by the user..</p>
+      <div class="about">
+        <button onclick="about()" class="abouttc">About</button>
+        <div id="about" class="about-content">
+          <p>This a Checker calculator that allows users to check the type of triangles depending on the values inputed by the user..</p>
+        </div>
+        <div class="instructions">
+          <button onclick="instructions()" class="instruct">Instructions</button>
+          <div id="instructions" class="instructions-content">
+            <ol>
+              <li>Input values into the fields provided</li>
+              <li>Click on the submit button</li>
+              <li>View answer on the right side of your page</li>
+              <li>Click on the reset button so as to enable a fresh input</li>
+              <li>Click on the clues button to run possible answers </li>
+              <li>Click on help menu if stuck</li>
+            </ol>
           </div>
-          <div class="instructions">
-            <button onclick="instructions()" class="instruct">Instructions</button>
-              <div id="instructions" class="instructions-content">
-                <ol>
-                  <li>Input values into the fields provided</li>
-                  <li>Click on the submit button</li>
-                  <li>View answer on the right side of your page</li>
-                  <li>Click  on the reset button so as to enable a fresh input</li>
-                  <li>Click on the clues button to run possible answers </li>
-                  <li>Click on help menu if stuck</li>
-                </ol>
-              </div>
-            </div>
+        </div>
       </div>
     </div>
 </body>
 <script src="js/scripts.js"></script>
+
 </html>

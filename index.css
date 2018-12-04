@@ -1,19 +1,21 @@
 body {
   background-image: url("https://image.freepik.com/free-vector/watercolour-abstract-background_1048-9210.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
+
 #overlay {
   position: fixed;
-    overflow: auto;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4);
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
 }
+
 nav>ul {
   text-align: right;
 }
@@ -21,19 +23,22 @@ nav>ul {
 nav>ul>li {
   display: inline-block;
 }
+
 nav ul li a {
   padding: 18px;
   margin-right: 0;
   text-transform: uppercase;
   text-decoration: none;
   display: block;
-  color:orange;
+  color: orange;
   font-family: 'Mali', cursive;
 }
+
 nav>ul>li>a:hover {
   background-color: white;
   border-radius: 20px;
 }
+
 #nav {
   position: fixed;
   right: 60px;
@@ -41,12 +46,14 @@ nav>ul>li>a:hover {
   flex-direction: row;
   justify-content: space-between;
 }
+
 #heading {
   margin-right: 300px;
   font-family: 'Gamja Flower', cursive;
 }
+
 .home {
-  background:#EFF7F9;
+  background: #EFF7F9;
   text-align: center;
   width: 50%;
   border-radius: 15px;
@@ -58,61 +65,65 @@ nav>ul>li>a:hover {
   box-shadow: 2px 2px 5px white;
   font-family: 'Patrick Hand', cursive;
 }
+
 .instruct {
-    background-color:white;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: black;
-    padding: 15px;
-      font-family: 'Patrick Hand', cursive;
+  background-color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  padding: 15px;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .instruct:hover {
-    background-color: grey;
+  background-color: grey;
 }
 
 .instructions {
-    position: relative;
-    top:65px;
-    margin-left: 30px
-    display: inline-block;
+  position: relative;
+  top: 65px;
+  margin-left: 30px display: inline-block;
 }
 
 .instructions-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-.show {display:block;}
+.show {
+  display: block;
+}
 
 .abouttc {
-    background-color:white;
-    font-size: 20px;
-    text-transform: uppercase;
-    color: black;
-    padding: 15px;
-      font-family: 'Patrick Hand', cursive;
+  background-color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: black;
+  padding: 15px;
+  font-family: 'Patrick Hand', cursive;
 }
 
 .abouttc:hover {
-    background-color: grey;
+  background-color: grey;
 }
 
 .about {
-    position: relative;
-    bottom:220px;
-    display: inline-block;
+  position: relative;
+  bottom: 220px;
+  display: inline-block;
 }
 
 .about-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1;
 }
 
-.show {display:block;}
+.show {
+  display: block;
+}

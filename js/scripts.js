@@ -4,34 +4,33 @@ function triangle() {
   sides.push(document.getElementById("side2").value);
   sides.push(document.getElementById("side3").value);
 
-  var [a,b,c] = sides;
+  var [a, b, c] = sides;
   var display = document.getElementById("display");
-  if(a.length === 0 || b.length === 0 || c.length === 0 ) {
+  if (a.length === 0 || b.length === 0 || c.length === 0) {
     alert("Please fill in all the fields")
     confirm("Click on help for more information")
   } else {
-    side(a,b,c);
-  } 
+    side(a, b, c);
+  }
 }
-function side(a,b,c) {
-  if(a + b > c && b + c > a && c + a > b) {
-    if(a === b && a === c) {
+
+function side(a, b, c) {
+  if (a + b > c && b + c > a && c + a > b) {
+    if (a === b && a === c) {
       display.innerHTML = "<p>This is an Equilateral triangle</p>"
-    }
-    else if(a === b || b === c || c === a) {
+    } else if (a === b || b === c || c === a) {
       display.innerHTML = "This is an Isoceles triangle"
-    }
-    else {
+    } else {
       display.innerHTML = "This is a Scalene triangle"
     }
-  }
-  else {
+  } else {
     display.innerHTML = "This is not a triangle"
   }
 }
-  function reset() {
-    location.reload();
-  }
+
+function reset() {
+  location.reload();
+}
 
 function newClues() {
   var clues = [
@@ -41,13 +40,13 @@ function newClues() {
     'Enter only one number',
     'click on the help icon for more information',
     'All inputs must be submitted for result to be displayed'
-]
-  var randomNumber= Math.floor(Math.random() *(clues.length));
-  document.getElementById('cluesdisplay').innerHTML=clues[randomNumber]  ;
+  ]
+  var randomNumber = Math.floor(Math.random() * (clues.length));
+  document.getElementById('cluesdisplay').innerHTML = clues[randomNumber];
 }
 
 function instructions() {
-    document.getElementById("instructions").classList.toggle("show");
+  document.getElementById("instructions").classList.toggle("show");
 }
 
 window.onclick = function(event) {
@@ -65,7 +64,7 @@ window.onclick = function(event) {
 }
 
 function about() {
-    document.getElementById("about").classList.toggle("show");
+  document.getElementById("about").classList.toggle("show");
 }
 
 window.onclick = function(event) {
