@@ -35,13 +35,25 @@ or just use this
 
 ## BDD
 
-1.  The user must input values into the html fields. if not the user is alerted to do so.
 
-2.  The user is alerted if they have understood all instructions if yes, the user may proceed if not the user is alerted to visit the help section.
+1.  The user fills nothing into the fields provided --- alerted to fill in all the fields and is alerted to click on help for more information.
 
-3.  The about and instructions drop-down buttons are there to guide the user on how to perform a check.
+2.  The user fills in one or two fields only --- alerted to fill in all fields and is alerted to click on help for more information.
 
-4.  The clues button is used to give guidance to the user when stuck.
+3.  The user enters three equal sides ---An EQUILATERAL triangle output message is displayed
+
+4.  The user enters two equal sides---An Isosceles triangle output message is displayed.
+
+5. The user enters no equal sides---A Scalene triangle output message is displayed.
+
+6. The user does not enter any number at all instead inputs Letters---- alerted that those inputs are not numbers and is alerted to click on help for information.
+.
+
+7. The user enters one or two letters--- alerted that those inputs are not number and is alerted to click on help for information.
+
+8. The user clicks on about and instruction button--- a drop-down message is shown.
+
+9. The user Clicks on clues button--- a variety of clues are displayed as output messages
 
 ## Live link
 
