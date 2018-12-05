@@ -20,8 +20,8 @@ This web application is a triangle checker that allows users to check the 3 type
 
 ## Project setup instruction/ installations
 
-You can get it on git-hub by;
-1\. From the repository, click + in the global sidebar and select Clone this repository under Get to work.
+
+1. From the repository, click + in the global sidebar and select Clone this repository under Get to work.
 
 2.  Copy the clone command.
 
