@@ -3,13 +3,16 @@ function triangle() {
   sides.push(document.getElementById("side1").value);
   sides.push(document.getElementById("side2").value);
   sides.push(document.getElementById("side3").value);
-
   var [a, b, c] = sides;
   var display = document.getElementById("display");
+
   if (a.length === 0 || b.length === 0 || c.length === 0) {
-    alert("Please fill in all the fields")
+    alert("Please fill in all fields");
     confirm("Click on help for more information")
   } else {
+    a = parseInt(a);
+    b = parseInt(b);
+    c = parseInt(c);
     side(a, b, c);
   }
 }
@@ -17,15 +20,22 @@ function triangle() {
 function side(a, b, c) {
   if (a + b > c && b + c > a && c + a > b) {
     if (a === b && a === c) {
-      display.innerHTML = "<p>This is an Equilateral triangle</p>"
-    } else if (a === b || b === c || c === a) {
-      display.innerHTML = "This is an Isoceles triangle"
+      display.innerHTML = "This is an Equilateral Triangle";
+    } else if (a === b || b === c || a === c) {
+      display.innerHTML = "This is an Iscoceles Triangle";
     } else {
-      display.innerHTML = "This is a Scalene triangle"
+      display.innerHTML = "This is a Scalene Triangle";
     }
+  } else if (isNaN(a) || isNaN(b) || isNaN(c)) {
+    alert("This is not a number");
+    confirm("Click on help for more information")
   } else {
     display.innerHTML = "This is not a triangle"
   }
+}
+
+function reset() {
+  location.reload();
 }
 
 function reset() {
